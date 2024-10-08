@@ -1,3 +1,6 @@
+#author:kevin joseph
+#date:8/10/2024
+
 num_1=int(input("enter the first number:"))
 num_2=int(input("enter the second number:"))
 num_3=int(input("enter the third number:"))
