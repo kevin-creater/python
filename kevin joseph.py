@@ -1,9 +1,9 @@
 '''
 python program to check largest of two numbers
 '''
-num_1=int(input("enter the first number:"))
-num_2=int(input("enter the second number:"))
-if num_1>num_2:
-     print(num_1,"is greater than :",num_2)
-else:
-     print(num_2,"is greater than:",num_1)
+principle=int(input("enter the principle value :"))
+years=int(input("enter the number of years:"))
+rate=float(input("enter the rate:"))
+simple_interest=principle*years*rate
+print(simple_interest)
+
