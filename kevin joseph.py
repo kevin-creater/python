@@ -1,9 +1,9 @@
 '''
-python program to check whether the given number is positive
+python program to check largest of two numbers
 '''
-
-number=int(input("enter a number:"))
-if number>0:
-     print("the given number:",number,"is positive")
+num_1=int(input("enter the first number:"))
+num_2=int(input("enter the second number:"))
+if num_1>num_2:
+     print(num_1,"is greater than :",num_2)
 else:
-     print("the given number:",number,"is negative")
+     print(num_2,"is greater than:",num_1)
