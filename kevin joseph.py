@@ -1,14 +1,12 @@
 '''
-python program to determine the entry ticket
+python program to find the factorial of a number
 '''
-
-age_1=int(input("enter the your age:"))
-if age_1<10:
-     print("fare is 7")
-elif age_1>10 and age_1<60:
-     print("fare is 10")
-else:
-     print("fare is 5")
+n=int(input("enter the number:"))
+f=1
+while(n>0):
+     f=f*n
+     n-=1
+print(f)
 
 
 
