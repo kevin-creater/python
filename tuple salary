@@ -1,0 +1,19 @@
+employee=[
+    ("rahul","manager",15000.00),
+    ("kenz","HOD",150.00),
+    ("tom","principal",150.00),
+    ("tim","directer",3000.00)
+]
+highest_salary_value=0
+person=0
+employee_with_highest_salary_value=None
+for person in employee:
+    employee_name, department, monthly_salary=(person)
+    highest_salary_value=monthly_salary
+    print(f"employee name:{employee_name},the  salary is: {monthly_salary}")
+    if monthly_salary>highest_salary_value:
+         highest_salary_value=monthly_salary
+         employee_with_highest_salary_value=employee_name
+print(f"Highest salary value is:{highest_salary_value}")
+print(f"item with highest stock value is: {employee_with_highest_salary_value}")
+
